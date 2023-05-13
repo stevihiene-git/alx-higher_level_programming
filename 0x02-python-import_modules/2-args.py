@@ -1,5 +1,13 @@
 #!/usr/bin/python3
 if __name__ == "__main__":
+    """
+    Prints the argument list passed to the program
+
+    The program takes all the arguments starting from the second
+    and prints the number of arguments and their value
+
+    """
+
     import sys
     arg_count = len(sys.argv)-1
 

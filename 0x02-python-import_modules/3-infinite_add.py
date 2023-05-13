@@ -2,6 +2,8 @@
 import sys
 
 if __name__ == '__main__':
+    """Print the addition of all arguments."""
+
     arg_len= len(sys.argv)
     sum = 0
 
