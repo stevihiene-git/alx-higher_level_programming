@@ -1,9 +1,8 @@
 #!/usr/bin/python3
-import sys
 
 if __name__ == '__main__':
     """Print the addition of all arguments."""
-
+    import sys
     arg_len= len(sys.argv)
     sum = 0
 
