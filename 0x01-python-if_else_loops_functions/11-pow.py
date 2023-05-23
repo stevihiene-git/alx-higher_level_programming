@@ -1,4 +1,4 @@
 #!/usr/bin/python3
-def (a,b):
-    """return a^b"""
-    return (a**b)
+def pow(a, b):
+    """Return a to the power of b."""
+    return (a ** b)
