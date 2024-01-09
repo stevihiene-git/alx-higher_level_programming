@@ -9,6 +9,4 @@ function factorial (n) {
   return (n * factorial(n - 1));
 }
 
-console.log(factorial(Number(process.argv[2])));
-
-add(Number(process.argv[2]), Number(process.argv[3]));
+console.log(factorial(parseInt(process.argv[2])));
